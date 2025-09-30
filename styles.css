@@ -1,0 +1,15 @@
+.main-list {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.main-list::before {
+  content: "";
+  background-image: url(assets/images/icon-list.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
