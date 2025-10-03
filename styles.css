@@ -81,12 +81,22 @@ button,
   height: 3rem;
   border: 1px solid hsl(0, 0%, 58%);
   padding: 1rem;
+  cursor: pointer;
 }
 
 button {
   background-color: hsl(234, 29%, 20%);
   color: white;
   cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 94, 142, 1) 0%,
+    rgba(255, 153, 94, 1) 100%
+  );
 }
 
 .dismiss-btn {
