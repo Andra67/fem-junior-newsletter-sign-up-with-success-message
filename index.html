@@ -35,48 +35,63 @@
   </head>
   <body>
     <div class="main">
-      <img src="assets/images/illustration-sign-up-mobile.svg" alt="" />
-      <!-- Sign-up form start -->
-      <form action="">
-        <h1>Stay updated!</h1>
-        <p>Join 60,000+ product managers receiving monthly updates on:</p>
-        <ul>
-          <li class="main-list">Product discovery and building what matters</li>
-          <li class="main-list">Measuring to ensure updates are a success</li>
-          <li class="main-list">And much more!</li>
-        </ul>
+      <div class="content">
+        <img
+          src="assets/images/illustration-sign-up-mobile.svg"
+          alt="sign up illustration"
+          class="signup-image"
+        />
+        <!-- Sign-up form start -->
+        <form action="" class="signup-form">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul>
+            <li class="main-list">
+              Product discovery and building what matters
+            </li>
+            <li class="main-list">Measuring to ensure updates are a success</li>
+            <li class="main-list">And much more!</li>
+          </ul>
 
-        <div class="email-section">
-          <label for="email">Email address</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="email@company.com"
-            required
-          />
-          <button class="subscribe-btn">Subscribe to monthly newsletter</button>
-        </div>
-      </form>
-      <!-- Sign-up form end -->
+          <div class="email-section">
+            <label for="email">Email address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email@company.com"
+              required
+            />
+            <button type="submit" class="subscribe-btn">
+              Subscribe to monthly newsletter
+            </button>
+          </div>
+        </form>
+        <!-- Sign-up form end -->
+      </div>
 
       <div class="success-message">
         <!-- Success message start -->
-
-        Thanks for subscribing! A confirmation email has been sent to
-        ash@loremcompany.com. Please open it and click the button inside to
-        confirm your subscription.
+        <img
+          src="assets/images/icon-success.svg"
+          alt="sucess icon"
+          class="success-image"
+        />
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to ash@loremcompany.com. Please
+          open it and click the button inside to confirm your subscription.
+        </p>
         <button class="dismiss-btn">Dismiss message</button>
-
         <!-- Success message end -->
       </div>
     </div>
-
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Julien Andra</a>.
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
